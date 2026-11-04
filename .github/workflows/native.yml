@@ -2,7 +2,6 @@ name: Build Native APK
 on:
   push:
     branches: [main]
-    paths: ['native.zip']
   workflow_dispatch:
 permissions:
   contents: write
